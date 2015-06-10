@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+						 Title="Services" BackgroundColor="White"
+             x:Class="DSHS.DCS.ContactUs">
+
+	 <ScrollView>
+<AbsoluteLayout>
+			<TableView HasUnevenRows="True"  AbsoluteLayout.LayoutBounds="0, 0, 0.5, 0.5"
+                AbsoluteLayout.LayoutFlags="All">
+				 <TableView.Root>
+						<TableSection Title="A">
+							 <!--<EntryCell Label="EntryCell"></EntryCell>-->
+							 <!--<TextCell Text="{Binding PhysicalAddress}" Detail="{Binding PhysicalAddressCityStateZip}"></TextCell>-->
+								 
+							 <ViewCell Height="10">
+									<ViewCell.View>
+										 <StackLayout>
+												<!--<BoxView Color="Red"></BoxView>-->
+												<StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" >
+													 <Label Text="Establishing Paternity" FontSize="10" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text=">" TextColor="Black" FontAttributes="Bold" HorizontalOptions="EndAndExpand"></Label>
+												</StackLayout>
+												<!--<BoxView x:Name="boxView" Color="Blue" ></BoxView>-->
+												
+										
+										 </StackLayout>
+									
+									
+									</ViewCell.View>
+							
+							 </ViewCell>
+						
+				 <ViewCell>
+									<ViewCell.View>
+										 <StackLayout>
+												<!--<BoxView Color="Red"></BoxView>-->
+												<StackLayout Orientation="Horizontal"  VerticalOptions="CenterAndExpand" >
+													 <Label Text="Legal Assistance" FontSize="10" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text=">" TextColor="Black" FontAttributes="Bold" HorizontalOptions="EndAndExpand"></Label>
+												</StackLayout>
+										 </StackLayout>
+									</ViewCell.View>
+							
+							 </ViewCell>
+						</TableSection>
+				 </TableView.Root>
+			</TableView>
+</AbsoluteLayout>
+	 </ScrollView>
+</ContentPage>

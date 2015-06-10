@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+						 xmlns:local="clr-namespace:DSHS.DCS;assembly=DSHS.DCS"
+						 Title="Office Details" 						 				 
+             x:Class="DSHS.DCS.OfficeDetails">
+
+	 <ContentPage.Padding>
+			<OnPlatform x:TypeArguments="Thickness"
+									iOS="0, 20, 0, 0"
+									Android="0, 10, 0, 0"
+									WinPhone="0, 0, 0, 0" />
+	 </ContentPage.Padding>
+
+	 <AbsoluteLayout>
+			
+			<TableView HasUnevenRows="True" HeightRequest="700">				  
+				 <TableView.Root>
+						
+						<TableSection>
+							 <ViewCell>
+									<ViewCell.View>		
+										 <StackLayout>
+												<StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" >
+													 <Label Text="{Binding OfficeCity}" FontSize="16" TextColor="White" BackgroundColor="#247272" FontAttributes="Bold" HorizontalOptions="FillAndExpand" ></Label>													 
+												</StackLayout>	
+									</StackLayout>
+									</ViewCell.View>
+							 </ViewCell>
+
+							 <ViewCell>
+									<ViewCell.View>																				
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5">													 
+													 <Label Text="Phone:" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding OfficeCityPhone}" FontSize="12" TextColor="Blue" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										
+									</ViewCell.View>
+							 </ViewCell>
+
+							 <ViewCell>
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="TDD Phone:" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding OfficeCityPhoneTDD}" FontSize="12" TextColor="Blue" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										 
+									</ViewCell.View>
+							 </ViewCell>
+
+							 <ViewCell>
+									<ViewCell.View>										 
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="Physical Address:" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding PhysicalAddress}" FontSize="12" WidthRequest="200" TextColor="#696969" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										
+									</ViewCell.View>
+							 </ViewCell>
+
+							 <ViewCell Height="40">
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" >													 
+													 <Button Text="Show Location" FontSize="12" BackgroundColor="#247272" TextColor="White" HorizontalOptions="CenterAndExpand"></Button>											
+										 </StackLayout>
+									</ViewCell.View>
+							 </ViewCell>
+							 
+							 <ViewCell>
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="Office Hours:" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding OfficeHours}" FontSize="12" TextColor="#696969" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										 
+									</ViewCell.View>
+							 </ViewCell>
+							  
+						<ViewCell>
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="Phone:" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding Phone}" FontSize="12" TextColor="Blue" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										 
+									</ViewCell.View>
+							 </ViewCell>
+						
+						<ViewCell>
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="Fax:" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding Fax}" FontSize="12" TextColor="#696969" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										 
+									</ViewCell.View>
+							 </ViewCell>
+						
+				   <ViewCell>
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="Email:" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding Email}" FontSize="12" TextColor="#696969" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										 
+									</ViewCell.View>
+					</ViewCell>
+							 
+						<ViewCell>
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="Where shoud you  send documents?" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding DocAddress}" FontSize="12" TextColor="#696969" WidthRequest="180" LineBreakMode="WordWrap" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										 
+									</ViewCell.View>
+					</ViewCell>
+							 
+						<ViewCell>
+									<ViewCell.View>										
+												<StackLayout BackgroundColor="White" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="10" Spacing="5" >													
+													 <Label Text="District Manager" FontSize="12" TextColor="Black" HorizontalOptions="FillAndExpand" ></Label>
+													 <Label Text="{Binding DocDistrictManager}" FontSize="12" TextColor="#696969" HorizontalOptions="EndAndExpand"></Label>													
+												</StackLayout>										 
+									</ViewCell.View>
+					</ViewCell>
+
+						</TableSection>
+				 </TableView.Root>
+			</TableView>
+	 </AbsoluteLayout>
+
+</ContentPage>

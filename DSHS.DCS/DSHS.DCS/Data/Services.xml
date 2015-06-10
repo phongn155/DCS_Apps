@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Services>
+	 <ServiceBO>
+			<Name>Paternity Establishment</Name>
+			<Details>Paternity means fatherhood. Establishing paternity creates a legal relationship between a
+				 father and a child. Establishing parentage for a child provides that child many potential benefits.Information for parents: If you are a parent who needs to
+				 establish paternity for your child, click here. On the FAQ page, search for topic Child Support-Information for Parents.
+				 Information for providers: If you are a hospital employee, midwife, or other entity which provides parents an opportunity to sign a paternity acknowledgment,
+				 click here. On the FAQ page, search for topic Child Support-Information for Providers.
+			</Details>
+	 </ServiceBO>
+	 <ServiceBO>
+			<Name>Establishing Support Order</Name>
+			<Details>Administrative - DCS will establish support administratively using the Washington State
+				 Child Support Schedule when any of the following are true:
+				 1.	New! July 2012 - Notice and Finding of Financial Responsibility
+				 2.	There is no court order or administrative support order in any jurisdiction.
+				 3.	The court order is silent about the non-custodial parent paying support.
+				 4.	The court order does not set support as a fixed amount, but the amount is determinable.
+				 5.	The non-custodial father has a valid acknowledgement of paternity on file with a state.
+				 Learn more about how DCS establishes administrative orders. If you think that current child support on your administrative order should change because
+				 circumstances have changed, contact DCS. A modification may be appropriate.
+				 Learn more about administrative order modification.
+			</Details>
+	 </ServiceBO>
+	 <ServiceBO>
+			<Name>Modifying Support Orders</Name>
+			<Details>If DCS is not enforcing your child support or you want to modify your order without a DCS review:
+				 •	Contact your attorney to modify the order, or
+				 •	You may do it yourself, by using the '"'Pro Se'"' method.
+				 Packets are available at any DCS office. Some counties have court facilitators to assist you.
+				 If you do not have a case with DCS, but you want DCS to review your order, you may apply for full collection services and request a review for modification.
+				 Is there already a child support order?
+				 If DCS is enforcing your child support order, you may ask DCS to review your order to see if a modification is appropriate, or you may petition for
+				 modification without DCS's help.
+			</Details>
+	 </ServiceBO>
+	 <ServiceBO>
+			<Name>Enforcement or Collection</Name>
+			<Details>DCS will provide current support services until the child emancipates, leaves the custodian's	household, or goes to live with the non-custodial parent. DCS will continue to collect support arrears unless the parties reconcile.
+			</Details>
+	 </ServiceBO>
+	 <ServiceBO>
+			<Name>Termination of Support</Name>
+			<Details>DCS will provide current support services until the child emancipates, leaves the custodian's	household, or goes to live with the non-custodial parent. DCS will continue to collect support arrears unless the parties reconcile.
+			</Details>
+	</ServiceBO>
+			<Name>Employers</Name>
+			<Details>As employers in Washington, you do so much to help families in need of child support. You withhold support from
+				 earnings and send it to DCS. You enroll children in health insurance plans. You report your newly hired and rehired employees. You answer our inquiries when
+				 we need to find a parent or need income information. You even deduct support for families in other states.
+			</Details>
+	 <ServiceBO>
+			<Name>Apply for Services</Name>
+			<Details>First decide which application package below fits your circumstances and then download all of the associated
+				 forms for that selection.
+				 Mail your completed application to the following address:
+				 Division of Child Support
+				 Central Services
+				 P.O. Box 11520
+				 Tacoma, Washington 98411-5520
+				 Once you send in your application, send any child support payments you receive to the Washington State Support Registry. DCS must have a physical record of
+				 all payments made by the non-custodial parent. Send one application for each noncustodial parent.
+			</Details>
+	</ServiceBO>
+	 <ServiceBO>	
+			<Name>Frequently Asked Questions (FAQ)</Name>
+			<Details>https://www.dshs.wa.gov/esa/faq
+			</Details>
+	 </ServiceBO>
+</Services>
+
+
+

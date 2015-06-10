@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+						 Title="" BackgroundColor="White"
+             x:Class="DSHS.DCS.Mainpage">
+
+	 <ContentPage.Resources>
+			<ResourceDictionary>
+				 <OnPlatform x:Key="Priority1" x:TypeArguments="x:Int32"
+						iOS="0"
+						Android="1"
+						WinPhone="1" />
+				 <OnPlatform x:Key="Priority2" x:TypeArguments="x:Int32"
+						iOS="1"
+						Android="0"
+						WinPhone="0" />
+				 <OnPlatform x:Key="Priority3" x:TypeArguments="x:Int32"
+					 iOS="0"
+					 Android="1"
+					 WinPhone="1" />
+				 <OnPlatform x:Key="Priority4" x:TypeArguments="x:Int32"
+						iOS="1"
+						Android="0"
+						WinPhone="0" />
+				 <OnPlatform x:Key="Priority5" x:TypeArguments="x:Int32"
+						iOS="1"
+						Android="0"
+						WinPhone="0" />
+			</ResourceDictionary>
+	 </ContentPage.Resources>
+	 
+	 	 
+	 <ContentPage.ToolbarItems HeightRequest="300">
+			<ToolbarItem Name="tbiEstimator" Activated="OnClick"  Order="Primary" Priority="{StaticResource Priority1}" Text="Estimator" >
+				 <!--<ToolbarItem.Icon>
+						<OnPlatform x:TypeArguments="FileImageSource" iOS="menu.png" Android="Services.png"/>
+				 </ToolbarItem.Icon>-->
+			</ToolbarItem>	 
+				 
+			<ToolbarItem Name="tbiServices" Activated="OnClick"  Order="Primary" Priority="{StaticResource Priority2}" Text="Services" >
+			<!--<ToolbarItem.Icon>
+				 <OnPlatform x:TypeArguments="FileImageSource" iOS="menu.png" Android="Location.PNG"/>
+			</ToolbarItem.Icon>-->
+			</ToolbarItem>
+			<ToolbarItem Name="tbiMore" Activated="OnClick"  Order="Primary" Priority="{StaticResource Priority3}" Text="More..." >
+				 <!--<ToolbarItem.Icon>
+				 <OnPlatform x:TypeArguments="FileImageSource" iOS="menu.png" Android="Location.PNG"/>
+			</ToolbarItem.Icon>-->
+			</ToolbarItem>
+			<ToolbarItem Name="tbiLocation" Activated="OnClick"  Order="Primary" Priority="{StaticResource Priority4}" Text="Location" >
+				 <!--<ToolbarItem.Icon>
+				 <OnPlatform x:TypeArguments="FileImageSource" iOS="menu.png" Android="Location.PNG"/>
+			</ToolbarItem.Icon>-->
+			</ToolbarItem>
+			<ToolbarItem Name="tbiPayment" Activated="OnClick"  Order="Primary" Priority="{StaticResource Priority5}" Text="Payment" >
+				 <!--<ToolbarItem.Icon>
+				 <OnPlatform x:TypeArguments="FileImageSource" iOS="menu.png" Android="Location.PNG"/>
+			</ToolbarItem.Icon>-->
+			</ToolbarItem>
+
+	 </ContentPage.ToolbarItems>
+</ContentPage>
